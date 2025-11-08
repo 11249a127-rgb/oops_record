@@ -1,6 +1,16 @@
+Aim: 
+To demonstrate constructors, destructors, and nested objects in C++. 
+Algorithm: 
+1. Start the program. 
+2. Define class Department with data members and constructor. 
+3. Define class University that contains a Department object. 
+4. Initialize data using constructors. 
+5. Display data. 
+6. Use destructor to indicate object destruction. 
+7. Stop the program.
+program:
 #include <iostream>
 using namespace std;
-
 class Department {
 public:
 string deptName;

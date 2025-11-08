@@ -1,10 +1,19 @@
+Aim: 
+To demonstrate constructors with default arguments and member functions in C++. 
+Algorithm: 
+1. Start the program. 
+2. Define class Employee with members: id, name, salary. 
+3. Create constructor with default arguments. 
+4. Define calcBonus() to calculate 10% bonus. 
+5. Display salary and bonus. 
+6. Stop the program.
+program:
 #include <iostream>
 using namespace std;
 class Employee {
 int id;
 string name;
 float salary;
-
 public:
 Employee(int i=0, string n="Unknown", float s=0.0) {
 id=i; name=n; salary=s;

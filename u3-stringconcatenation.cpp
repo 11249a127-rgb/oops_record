@@ -26,4 +26,3 @@ s3 = s1 + s2;
 s3.display(); 
 return 0; 
 } 
-Sample Output:

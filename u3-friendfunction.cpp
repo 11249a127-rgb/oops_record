@@ -1,3 +1,11 @@
+Aim: 
+To demonstrate the use of friend functions across two classes. 
+Algorithm: 
+1. Create classes Account and Loan. 
+2. Declare a friend function checkEligibility() in both classes. 
+3. Input balance and loan amount. 
+4. Use the friend function to check eligibility and display result. 
+Program:
 #include <iostream> 
 using namespace std; 
 class Loan;  

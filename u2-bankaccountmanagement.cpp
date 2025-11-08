@@ -1,3 +1,16 @@
+Aim: 
+To implement constructor overloading and static member variables in C++ using a bank account 
+example. 
+Algorithm: 
+1. Start the program. 
+2. Define class BankAccount with members: accNo, name, balance, and static count. 
+3. Create a default constructor and a parameterized constructor. 
+4. Create a static member function to show account count. 
+5. Define functions deposit() and withdraw(). 
+6. Create multiple objects to test constructors and count. 
+7. Display outputs. 
+8. Stop the program.
+program:
 #include <iostream>
 using namespace std;
 class BankAccount {

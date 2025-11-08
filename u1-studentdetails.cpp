@@ -1,3 +1,14 @@
+Aim: 
+To develop a class to represent student information and display their details. 
+Algorithm: 
+1. Start the program. 
+2. Define a class Student with data members name, rollNo, and marks. 
+3. Define display() to print student information. 
+4. In main(), create three objects. 
+5. Assign values to each student. 
+6. Display the data using display(). 
+7. Stop the program. 
+program:
 #include<iostream>
 using namespace std ;
 class student 
